@@ -1,4 +1,4 @@
-FROM php:7.2.8-apache
+FROM php:7.2.9-apache
 
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y \
